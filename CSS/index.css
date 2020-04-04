@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ol{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+#topNav{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    padding: 0.5rem;
+    margin: 0px 10px;
+}
