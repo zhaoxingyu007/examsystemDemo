@@ -1,9 +1,22 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+a:visited{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 ol{
     text-decoration: none;
+    list-style-type: none;
 }
 
 body{
@@ -18,8 +31,77 @@ header{
 #topNav{
     display: flex;
     flex-direction: row;
+    background-color: #45BADB;
+    width: 100%;
+    padding: 0.5rem;
 }
 #logo{
     padding: 0.5rem;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+#logoWrapper{
+    display: flex;
+    flex-direction: column;
+    background-color:#37BFD1;
+    justify-content: center;
+}
+
+#topNav>div{
+    padding: 0.5rem;
     margin: 0px 10px;
+    color :white;
+    border-radius: 0.5rem;
+}
+#topNav>div:hover{
+    background-color:lightblue;
+}
+main{
+    margin: 30px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#examBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    backgropnd-color: #63CECB;
+    border: solid 1px black;
+    border-redius: 0.5rem;
+    justify-content: center;
+    height: 50vh;
+}
+
+#questionWrapper{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#choices>li{
+    padding: 1rem;
+}
+
+#choiceSubmit{
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+
+#links{
+    background-color: #54D6DB;
+    border: black solid 1px;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    width: 80%;
+    margin: 30px;
+    height: 20vh;
 }
